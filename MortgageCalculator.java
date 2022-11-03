@@ -43,8 +43,6 @@ public class CWM_14_P_2_MortgageCalculator {
         }
 
         double mortgage = principal * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, numberOfPayments))/(Math.pow(1+monthlyInterestRate,numberOfPayments)-1);
-
-        //String mortgageFormated = NumberFormat.getCurrencyInstance().toString();
         System.out.println("Mortgage: $"+ mortgage);
 
     }
